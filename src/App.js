@@ -1,4 +1,5 @@
 import React from 'react';
+import Routes from './routes';
 
 import './styles.css';
 
@@ -19,7 +20,7 @@ function App() {
 const App = () => (
   <div className="App">
     <Header />
-    <Main />
+    <Routes />
   </div>
 )
 
